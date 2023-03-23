@@ -583,6 +583,18 @@ video {
   top: 3rem;
 }
 
+.top-14 {
+  top: 3.5rem;
+}
+
+.top-20 {
+  top: 5rem;
+}
+
+.top-16 {
+  top: 4rem;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -610,6 +622,10 @@ video {
 
 .mt-4 {
   margin-top: 1rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
 }
 
 .block {
@@ -760,6 +776,10 @@ video {
   scroll-behavior: smooth;
 }
 
+.text-ellipsis {
+  text-overflow: ellipsis;
+}
+
 .rounded-full {
   border-radius: 9999px;
 }
@@ -817,7 +837,7 @@ video {
 }
 
 .bg-logo-light-mode {
-  background-image: url('../images/logo-light-mode.svg');
+  background-image: url('../images/DriveIO2.svg');
 }
 
 .bg-contain {
@@ -900,6 +920,10 @@ video {
   font-family: Open Sans, sans-serif;
 }
 
+.font-mono {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
@@ -923,6 +947,16 @@ video {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.text-6xl {
+  font-size: 3.75rem;
+  line-height: 1;
 }
 
 .font-bold {
@@ -962,6 +996,11 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-black {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
 .ficon:hover {
@@ -1026,7 +1065,7 @@ video {
 }
 
 .dark .dark\:bg-logo-dark-mode {
-  background-image: url('../images/logo-dark-mode.svg');
+  background-image: url('../images/DriveIO.svg');
 }
 
 .dark .dark\:text-gray-400 {
@@ -1065,6 +1104,14 @@ video {
 
   .md\:-mt-10 {
     margin-top: -2.5rem;
+  }
+
+  .md\:mb-2 {
+    margin-bottom: 0.5rem;
+  }
+
+  .md\:mb-0 {
+    margin-bottom: 0px;
   }
 
   .md\:h-20 {
